@@ -14,7 +14,7 @@ function updatePolyType(button, shape) {
 	button.addClass('active');
 }
 
-canvas.on('object:moving', function(options) {
+canvas.on('object:moving', function(options) { 
   options.target.set({
     left: Math.round(options.target.left / grid) * grid,
     top: Math.round(options.target.top / grid) * grid
