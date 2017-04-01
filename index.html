@@ -1,37 +1,59 @@
 <html>
 
-<head>
+  <head>
 
-  <title>Power Anaylzer</title>
+    <title>Power Anaylzer</title>
 
     <style>
+
       h1{
       color: green;
       font-size: 35px;
       text-align: center;
       }
+
       h2{
       color: crimson;
       font-size: 25px;
       text-align: right;
       }
+
     </style>
 
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <meta name="google-signin-client_id" content="903270933585-a4egjhdr3lob8318o07i5frvosb1f99d.apps.googleusercontent.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- Make size responsive/dynamic -->
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- W3.CSS API -->
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>  <!-- Google Sign-in API -->
+
+    <meta name="google-signin-client_id" content="903270933585-a4egjhdr3lob8318o07i5frvosb1f99d.apps.googleusercontent.com">  <!-- Google Sign-in API credentials -->
+
   </head>
 
   <body>
-    <h1>Power Analyzer</h1>
-    <br>
-    <div class="g-signin2" data-onsuccess="onSignIn"></div>
-    <br>
-    <form action="echo.php" method="POST">
-      <button>Click me</button>
-    </form>
+
+    <header class="w3-container w3-row w3-teal">
+
+      <div class="w3-half w3-container">
+
+        <h1 class="w3-left-align w3-text-white">Power Analyzer</h1>
+
+      </div>
+
+      <div class="w3-half w3-container">
+
+        <br>
+
+        <div class="w3-right">
+
+          <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+        </div>
+
+      </div>
+
+    </header>
+
   </body>
-
-
-
 
 </html>
