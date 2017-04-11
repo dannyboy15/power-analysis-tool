@@ -1,0 +1,19 @@
+{
+  "name": "power-analysis-tool",
+  "version": "1.0.0",
+  "description": "A webapp representation of SCOPE's power analysis tool.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannyboy15/power-analysis-tool.git"
+  },
+  "author": "Daniel Bravo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannyboy15/power-analysis-tool/issues"
+  },
+  "homepage": "https://github.com/dannyboy15/power-analysis-tool#readme"
+}
